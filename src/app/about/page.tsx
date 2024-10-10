@@ -1,7 +1,9 @@
-export default function Home() {
+import React from "react";
+
+export default async function page() {
   return (
     <div className="space-y-8">
-      <h1 className="text-3xl font-semibold">Página Inicial</h1>
+      <h1 className="text-3xl font-semibold">Sobre nós</h1>
       <div className="flex gap-16">
         <span className="max-w-sm w-full flex text-justify">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
